@@ -12,7 +12,7 @@ data_orig2 <- read_csv('../data/tbm2_homeward.csv')
 label_orig <- read_csv('../data/geo_osaka.csv') %>% 
   select(!contains('BH')) # remove BH id
 
-
+colnames <- data_orig2[1,]
 
 
 
